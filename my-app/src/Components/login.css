@@ -1,0 +1,31 @@
+.wrapper__login {
+  height: 19rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login__button-group {
+  display: flex;
+  flex-direction: column;
+}
+.login__border-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+  height: 7rem;
+  background: rgb(14, 130, 134);
+  border: solid 0.2rem;
+  border-radius: 1rem;
+}
+.login__button-group-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 2rem;
+  width: 15rem;
+  padding: 1rem;
+  border: 0.2rem solid;
+  border-radius: 1rem;
+}

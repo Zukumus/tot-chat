@@ -1,0 +1,23 @@
+.wrapper__navbar {
+  background: cadetblue;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar__button-group {
+  display: flex;
+}
+.navbar__button-group-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 0.2rem solid;
+  height: 2rem;
+  width: 5rem;
+  padding: 1rem;
+}
+.navbar__button-group-button:last-child {
+  margin-right: 2rem;
+}
